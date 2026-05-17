@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+source/
+.vercel
+
+# Design files (local-only, never commit)
+DESIGN.md
+design.md
+.design/
+.design-files/
+
+.vercel
