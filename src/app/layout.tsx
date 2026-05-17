@@ -1,19 +1,12 @@
 import type { Metadata } from "next";
-import { Inter, Newsreader } from "next/font/google";
+import { Hanken_Grotesk } from "next/font/google";
 import { SmoothScroll } from "@/components/effects/SmoothScroll";
 import { brand } from "@/lib/landing-data";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
+const hankenGrotesk = Hanken_Grotesk({
+  variable: "--font-hanken-grotesk",
   subsets: ["latin"],
-  display: "swap",
-});
-
-const newsreader = Newsreader({
-  variable: "--font-newsreader",
-  subsets: ["latin"],
-  axes: ["opsz"],
   display: "swap",
 });
 
@@ -74,7 +67,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      className={`${inter.variable} ${newsreader.variable} h-full antialiased`}
+      className={`${hankenGrotesk.variable} h-full antialiased`}
       lang="en"
       suppressHydrationWarning
     >

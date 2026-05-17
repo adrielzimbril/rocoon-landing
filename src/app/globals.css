@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme inline {
-  --font-sans: var(--font-inter);
-  --font-serif: var(--font-newsreader);
+  --font-sans: var(--font-hanken-grotesk);
+  --font-serif: var(--font-hanken-grotesk);
   --color-rocoon-ink: #15110d;
   --color-rocoon-deep: #241a14;
   --color-rocoon-brown: #38291f;
@@ -24,7 +24,7 @@ html {
 body {
   margin: 0;
   overflow-x: hidden;
-  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-hanken-grotesk), ui-sans-serif, system-ui, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -99,11 +99,11 @@ a {
 
 .section-title {
   margin: 0;
-  font-family: var(--font-newsreader), ui-serif, Georgia, serif;
+  font-family: var(--font-hanken-grotesk), ui-sans-serif, system-ui, sans-serif;
   font-size: clamp(2.45rem, 4.6vw, 3.85rem);
   font-weight: 600;
   line-height: 1.02;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.055em;
 }
 
 .btn-copper,

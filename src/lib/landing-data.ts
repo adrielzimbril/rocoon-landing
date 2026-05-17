@@ -161,6 +161,30 @@ export const processSteps = [
   },
 ];
 
+export const processSlides = [
+  {
+    title: "Read the site",
+    kicker: "Mapped constraints",
+    image: "/img/arch/820a6b98-1866-428e-8ec7-a7b50fbb1095_original.png",
+    caption:
+      "Sun, slope, access, privacy, and comfort data become the first design material.",
+  },
+  {
+    title: "Generate the plan",
+    kicker: "AI option set",
+    image: "/img/arch/7880ef07-dc02-494a-9ed6-22dba2fe705f_original.png",
+    caption:
+      "Multiple plan families are compared through daylight, circulation, and smart-home readiness.",
+  },
+  {
+    title: "Align the build",
+    kicker: "Clear handoff",
+    image: "/img/arch/d8485ce0-c65f-45ec-9c62-f1e27c057ce5_original.png",
+    caption:
+      "The chosen concept becomes a coordinated roadmap for budget, sequence, and decisions.",
+  },
+];
+
 export const featureRows = [
   { label: "Daylight comfort", value: "Modeled" },
   { label: "Energy behavior", value: "Forecast" },
