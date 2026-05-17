@@ -1,4 +1,4 @@
-import { ArrowRight, Sparkles } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import { brand, heroStats, trustLogos } from "@/lib/landing-data";
 
@@ -29,10 +29,6 @@ export function HeroSection() {
 
         <div className="grid gap-10 pb-10 md:grid-cols-[1.18fr_0.82fr] md:items-end">
           <div>
-            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/14 bg-black/28 px-4 py-2 text-xs font-bold uppercase tracking-[0.16em] text-white/70 backdrop-blur">
-              <Sparkles className="size-4 text-rocoon-gold" />
-              Day 16/30 AI Landing Challenge
-            </div>
             <h1 className="max-w-4xl font-serif text-[clamp(3.3rem,6.8vw,6rem)] font-semibold leading-[0.96] tracking-tight">
               Homes designed by architecture, accelerated by intelligence.
             </h1>

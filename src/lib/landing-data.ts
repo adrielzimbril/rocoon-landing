@@ -32,6 +32,7 @@ export const brand = {
 export const navItems = [
   { label: "Vision", href: "#vision" },
   { label: "System", href: "#system" },
+  { label: "Living AI", href: "#living-ai" },
   { label: "Homes", href: "#homes" },
   { label: "Process", href: "#process" },
   { label: "FAQ", href: "#faq" },
@@ -232,10 +233,61 @@ export const auditItems = [
 export const footerLinks = [
   { label: "Vision", href: "#vision" },
   { label: "System", href: "#system" },
+  { label: "Living AI", href: "#living-ai" },
   { label: "Homes", href: "#homes" },
   { label: "Process", href: "#process" },
   { label: "FAQ", href: "#faq" },
   { label: "Start", href: "#contact" },
+];
+
+export const homeModes = [
+  {
+    label: "Morning",
+    temperature: 69,
+    energy: 42,
+    privacy: "Open view",
+    scene: "East glazing opens, kitchen warms up, bedrooms stay quiet.",
+  },
+  {
+    label: "Away",
+    temperature: 64,
+    energy: 18,
+    privacy: "Secured",
+    scene: "Facade shutters close, sensors arm, battery shifts to reserve.",
+  },
+  {
+    label: "Evening",
+    temperature: 72,
+    energy: 56,
+    privacy: "Courtyard mode",
+    scene: "Warm perimeter lighting, spa zone active, media wall dimmed.",
+  },
+];
+
+export const aiMessages = [
+  {
+    from: "Owner",
+    text: "Can the house prepare for guests without overheating the west rooms?",
+  },
+  {
+    from: "Rocoon AI",
+    text: "Guest suite set to 71F. West shades close to 62%. Courtyard lights stage at sunset.",
+  },
+  {
+    from: "Owner",
+    text: "Keep the studio bright but private for calls.",
+  },
+  {
+    from: "Rocoon AI",
+    text: "Clerestory daylight remains open. Street-facing glass switches to soft privacy.",
+  },
+];
+
+export const roomControls = [
+  { room: "Atrium", value: "72%", label: "Daylight" },
+  { room: "Suite", value: "71F", label: "Climate" },
+  { room: "Studio", value: "Private", label: "Glass" },
+  { room: "Garage", value: "Armed", label: "Security" },
 ];
 
 export const iconMap = {
