@@ -1,37 +1,37 @@
-# 🐼 Oleap — AI Customer Support Platform Landing Page
+# 🐼 Rocoon — AI Architecture Agency Landing Page
 
-> **Day 15/30 of the "Building 1 AI-Generated Landing Page Every Day" Challenge**
+> **Day 16/30 of the "Building 1 AI-Generated Landing Page Every Day" Challenge**
 
 ![preview](public/opengraph-image.png)
 
 ## 🚀 About
 
-Conceptual landing page for **Oleap**, a **conceptual AI customer support platform** that closes the support feedback loop. Developed with **Next.js 16**, **TypeScript**, and **Tailwind CSS 4**. This project is the fifteenth realization of an ambitious challenge: creating **1 complete and functional mockup per day using AI**.
+Conceptual landing page for **Rocoon**, a **conceptual AI architecture agency** that designs modern smart homes with predictive planning, generative concepts, and connected build intelligence. Developed with **Next.js 16**, **TypeScript**, and **Tailwind CSS 4**. This project is the sixteenth realization of an ambitious challenge: creating **1 complete and functional mockup per day using AI**.
 
-Oleap is designed to resolve tickets instantly with AI agents and in-app video calls, then turn that feedback directly into shipping features. The goal is to provide **product intelligence**, **seamless support workflows**, and **actionable feedback loops** through a warm, editorial, bento-inspired digital experience.
+Rocoon is designed to help clients see what a site can become before the first sketch, using AI site analysis, climate-aware planning, smart-home system mapping, and build-ready concept direction. The goal is to provide **modern residential architecture**, **AI-assisted design clarity**, and **connected construction intelligence** through a refined, image-led, bento-inspired digital experience.
 
-Live URL: [https://oleap-landing.adrielzimbril.com](https://oleap-landing.adrielzimbril.com)
+Live URL: [https://rocoon-landing.adrielzimbril.com](https://rocoon-landing.adrielzimbril.com)
 
 ## 🎨 Design & Aesthetic Decisions
 
-For this project, the theme focuses on **calm productivity, editorial warmth, and product-led support intelligence**.
+For this project, the theme focuses on **high-end residential architecture, AI-native planning, and calm build confidence**.
 
-- **Warm Editorial Aesthetic:** A refined sand and terracotta palette with clean typography, soft shadows, and a "calm workspace" feel.
+- **Architectural Warmth:** A refined ink, cream, copper, and gold palette with large image-led compositions and premium editorial typography.
 - **Performance First:** Leveraging Next.js 16's latest features for instant loading and smooth transitions.
-- **Bento Grid Layout:** Organizing complex support workflows into clear, distinct cards that simulate a real support dashboard.
-- **Purposeful Interactions:** Scroll-reveal animations, marquee testimonials, and interactive channel cards that make the experience feel alive yet calm.
+- **Bento Grid Layout:** Organizing complex architecture workflows into clear, distinct cards that simulate a real concept and build intelligence system.
+- **Purposeful Interactions:** Sticky navigation, expandable FAQ, structured concept cards, and clear visual hierarchy that make the experience feel polished without excess motion.
 - **Premium Typography:** Using **Inter** for clarity and **Newsreader** for that editorial, high-end serif aesthetic.
 
 ## 🧩 Key Sections
 
-- **🌟 Hero Section:** High-impact introduction with three bento cards showcasing instant chat routing, service analytics, and customer timelines.
-- **🏢 Logos Bar:** Social proof strip with trusted company logos.
-- **🔄 Workflow Section:** A three-step support workflow with a marquee image strip and step-by-step breakdown.
-- **⚡ Features Grid:** Four core capability cards — Faster Resolution, Team Alignment, Unified Threads, and Live Insights.
-- **� Operations Hub:** A command center view with performance metrics, channel overview, and follow-up planning.
-- **� Reviews:** Marquee testimonials and a featured customer story with 42% first-response improvement.
-- **📞 CTA:** Clean contact sales section with trial and demo CTAs.
-- **🌐 Footer:** Newsletter signup, company links, and resource navigation.
+- **🌟 Hero Section:** High-impact introduction with an architectural image, AI studio positioning, trust bar, and performance stats.
+- **🏢 Vision Section:** Three-part design intelligence flow covering site scan, AI concepting, and build intelligence.
+- **🔄 System Section:** Rocoon OS capability grid for parametric planning, climate intelligence, smart living layers, and material systems.
+- **⚡ Homes Gallery:** Image-led modern home concepts with inspectable project metrics.
+- **🏗️ Process Section:** Three-step studio workflow with concept command center and customer quotes.
+- **💬 FAQ:** Expandable answers for clients evaluating an AI-assisted architecture process.
+- **📞 CTA:** Clean site audit section with project brief, build path, and performance intent details.
+- **🌐 Footer:** Brand summary, navigation links, contact email, and legal links.
 
 ## 🛠️ Tech Stack
 
