@@ -17,14 +17,14 @@ export function Navbar() {
   }, []);
 
   return (
-    <header
-      className={`fixed inset-x-0 top-0 z-50 border-b transition-all duration-300 ${
-        isScrolled
-          ? "border-black/10 bg-rocoon-cream/95 shadow-[0_16px_50px_rgba(20,17,14,0.08)] backdrop-blur-xl"
-          : "border-white/10 bg-rocoon-cream/80 backdrop-blur-xl"
-      }`}
-    >
-      <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 md:px-8">
+    <header className="fixed inset-x-0 top-4 z-50 px-4 transition-all duration-300">
+      <nav
+        className={`mx-auto flex h-16 max-w-7xl items-center justify-between rounded-full border px-4 shadow-[0_18px_60px_rgba(20,17,14,0.10)] backdrop-blur-xl transition-all duration-300 md:h-[4.5rem] md:px-6 ${
+          isScrolled
+            ? "border-black/10 bg-rocoon-cream/96"
+            : "border-white/40 bg-rocoon-cream/88"
+        }`}
+      >
         <a href="#hero" aria-label={`${brand.name} home`}>
           <RocoonLogo />
         </a>
@@ -56,7 +56,7 @@ export function Navbar() {
       </nav>
 
       {isOpen ? (
-        <div className="border-t border-black/10 bg-rocoon-cream px-5 py-5 md:hidden">
+        <div className="mx-auto mt-3 max-w-7xl rounded-3xl border border-black/10 bg-rocoon-cream/96 px-5 py-5 shadow-[0_18px_60px_rgba(20,17,14,0.12)] backdrop-blur-xl md:hidden">
           <div className="grid gap-3">
             {navItems.map((item) => (
               <a

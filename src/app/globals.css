@@ -100,10 +100,10 @@ a {
 .section-title {
   margin: 0;
   font-family: var(--font-newsreader), ui-serif, Georgia, serif;
-  font-size: clamp(2.8rem, 5.4vw, 5.8rem);
+  font-size: clamp(2.45rem, 4.6vw, 4.85rem);
   font-weight: 600;
-  line-height: 0.98;
-  letter-spacing: -0.035em;
+  line-height: 1.02;
+  letter-spacing: -0.025em;
 }
 
 .btn-copper,
