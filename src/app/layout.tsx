@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Newsreader } from "next/font/google";
+import { SmoothScroll } from "@/components/effects/SmoothScroll";
+import { brand } from "@/lib/landing-data";
 import "./globals.css";
-import { SmoothScroll } from "@/components/SmoothScroll";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -17,38 +18,37 @@ const newsreader = Newsreader({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://oleap-landing.adrielzimbril.com"),
-  title: "Oleap | Turn Customer Support into Product Intelligence",
-  description:
-    "Day 15/30 of the AI-Generated Landing Page Challenge. Oleap is a conceptual AI customer support platform that closes the support feedback loop — resolving tickets instantly with AI agents and in-app video calls, then turning that feedback directly into shipping features.",
+  metadataBase: new URL(brand.liveUrl),
+  title: "Rocoon | AI Architecture for Modern Smart Homes",
+  description: brand.description,
   keywords: [
-    "Oleap",
-    "AI customer support",
-    "product intelligence",
-    "support feedback loop",
-    "AI agents",
-    "in-app video calls",
-    "customer support platform",
-    "ticket resolution",
-    "feature feedback",
+    "Rocoon",
+    "AI architecture agency",
+    "AI architecture",
+    "modern smart homes",
+    "generative home design",
+    "smart home planning",
+    "residential architecture",
+    "AI site analysis",
     "Next.js",
     "React",
     "Tailwind CSS",
+    "motion/react",
     "bento design",
     "AI challenge",
   ],
   openGraph: {
-    title: "Oleap | Turn Customer Support into Product Intelligence",
+    title: "Rocoon | AI Architecture for Modern Smart Homes",
     description:
-      "A conceptual AI customer support platform landing page for Day 15/30 of the AI-Generated Landing Page Challenge.",
-    url: "https://oleap-landing.adrielzimbril.com",
-    siteName: "Oleap",
+      "A conceptual AI architecture agency landing page for Day 16/30 of the AI-Generated Landing Page Challenge.",
+    url: brand.liveUrl,
+    siteName: "Rocoon",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Oleap — Turn Customer Support into Product Intelligence",
+        alt: "Rocoon - AI Architecture for Modern Smart Homes",
       },
     ],
     locale: "en_US",
@@ -56,9 +56,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Oleap | Turn Customer Support into Product Intelligence",
+    title: "Rocoon | AI Architecture for Modern Smart Homes",
     description:
-      "A conceptual AI customer support platform landing page for Day 15/30 of the AI-Generated Landing Page Challenge.",
+      "A conceptual AI architecture agency landing page for Day 16/30 of the AI-Generated Landing Page Challenge.",
     images: ["/opengraph-image.png"],
   },
   icons: {
@@ -74,13 +74,13 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
       className={`${inter.variable} ${newsreader.variable} h-full antialiased`}
+      lang="en"
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full bg-rocoon-cream text-rocoon-ink">
         <SmoothScroll />
-          {children}
+        {children}
       </body>
     </html>
   );
