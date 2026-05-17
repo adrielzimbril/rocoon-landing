@@ -33,7 +33,7 @@ export function HeroSection() {
               <Sparkles className="size-4 text-rocoon-gold" />
               Day 16/30 AI Landing Challenge
             </div>
-            <h1 className="max-w-4xl font-serif text-[clamp(3.3rem,6.8vw,7.4rem)] font-semibold leading-[0.96] tracking-tight">
+            <h1 className="max-w-4xl font-serif text-[clamp(3.3rem,6.8vw,6rem)] font-semibold leading-[0.96] tracking-tight">
               Homes designed by architecture, accelerated by intelligence.
             </h1>
           </div>

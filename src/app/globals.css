@@ -46,7 +46,8 @@ a {
       circle at 12% 10%,
       rgba(189, 124, 72, 0.13),
       transparent 28%
-    ), linear-gradient(135deg, #f4efe7 0%, #e7d8c6 100%);
+    ),
+    linear-gradient(135deg, #f4efe7 0%, #e7d8c6 100%);
   padding: clamp(5rem, 9vw, 8.5rem) 0;
 }
 
@@ -59,7 +60,11 @@ a {
       rgba(189, 124, 72, 0.14),
       transparent 30%
     ),
-    radial-gradient(circle at 10% 92%, rgba(214, 168, 95, 0.1), transparent 28%),
+    radial-gradient(
+      circle at 10% 92%,
+      rgba(214, 168, 95, 0.1),
+      transparent 28%
+    ),
     linear-gradient(135deg, #15110d 0%, #241a14 48%, #38291f 100%);
   color: #f4efe7;
   padding: clamp(5.5rem, 10vw, 9rem) 0;
@@ -100,7 +105,7 @@ a {
 .section-title {
   margin: 0;
   font-family: var(--font-newsreader), ui-serif, Georgia, serif;
-  font-size: clamp(2.45rem, 4.6vw, 4.85rem);
+  font-size: clamp(2.45rem, 4.6vw, 3.85rem);
   font-weight: 600;
   line-height: 1.02;
   letter-spacing: -0.025em;
@@ -163,7 +168,8 @@ a {
       180deg,
       rgba(255, 255, 255, 0.72),
       rgba(255, 255, 255, 0.42)
-    ), rgba(255, 255, 255, 0.46);
+    ),
+    rgba(255, 255, 255, 0.46);
   box-shadow: 0 22px 70px rgba(24, 19, 15, 0.08);
 }
 
@@ -174,7 +180,8 @@ a {
       180deg,
       rgba(255, 255, 255, 0.095),
       rgba(255, 255, 255, 0.045)
-    ), rgba(255, 255, 255, 0.035);
+    ),
+    rgba(255, 255, 255, 0.035);
   box-shadow: 0 22px 70px rgba(0, 0, 0, 0.18);
 }
 

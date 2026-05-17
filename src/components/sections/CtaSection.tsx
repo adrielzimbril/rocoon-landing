@@ -22,7 +22,7 @@ export function CtaSection() {
             <p className="mb-5 text-xs font-extrabold uppercase tracking-[0.18em] text-white/58">
               Final step
             </p>
-            <h2 className="font-serif text-[clamp(3rem,6vw,6.8rem)] font-semibold leading-[0.95] tracking-tight">
+            <h2 className="font-serif text-[clamp(3rem,6vw,5.2rem)] font-semibold leading-[0.95] tracking-tight">
               See what your site could become before the first sketch.
             </h2>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-white/70">
