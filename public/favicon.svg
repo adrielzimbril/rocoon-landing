@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-  <rect width="32" height="32" rx="9" fill="#15110D"/>
-  <path d="M8 18.7V13.2L16 8L24 13.2V18.7C24 22.9 20.5 26 16 26C11.5 26 8 22.9 8 18.7Z" stroke="#F4EFE7" stroke-width="1.45" stroke-linejoin="round"/>
-  <path d="M12.1 17.1C12.1 14.7 13.8 13 16 13C18.2 13 19.9 14.7 19.9 17.1C19.9 19.5 18.2 21.1 16 21.1C13.8 21.1 12.1 19.5 12.1 17.1Z" stroke="#BD7C48" stroke-width="1.45"/>
+  <rect width="32" height="32" rx="9" fill="#18130B"/>
+  <path d="M8 18.7V13.2L16 8L24 13.2V18.7C24 22.9 20.5 26 16 26C11.5 26 8 22.9 8 18.7Z" stroke="#EADFCA" stroke-width="1.45" stroke-linejoin="round"/>
+  <path d="M12.1 17.1C12.1 14.7 13.8 13 16 13C18.2 13 19.9 14.7 19.9 17.1C19.9 19.5 18.2 21.1 16 21.1C13.8 21.1 12.1 19.5 12.1 17.1Z" stroke="#D6A85F" stroke-width="1.45"/>
   <circle cx="16" cy="17.1" r="2.2" fill="#D6A85F"/>
-  <path d="M16 5.5V8" stroke="#F4EFE7" stroke-width="1.45" stroke-linecap="round"/>
-  <path d="M6 16.3H8" stroke="#F4EFE7" stroke-width="1.45" stroke-linecap="round"/>
-  <path d="M24 16.3H26" stroke="#F4EFE7" stroke-width="1.45" stroke-linecap="round"/>
+  <path d="M16 5.5V8" stroke="#EADFCA" stroke-width="1.45" stroke-linecap="round"/>
+  <path d="M6 16.3H8" stroke="#EADFCA" stroke-width="1.45" stroke-linecap="round"/>
+  <path d="M24 16.3H26" stroke="#EADFCA" stroke-width="1.45" stroke-linecap="round"/>
 </svg>

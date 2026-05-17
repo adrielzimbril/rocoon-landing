@@ -53,7 +53,7 @@ export function SmartHomeSection() {
               <button
                 className={`rounded-2xl border p-4 text-left transition ${
                   modeIndex === index
-                    ? "border-rocoon-copper bg-rocoon-ink text-white shadow-[0_16px_44px_rgba(21,17,13,0.18)]"
+                    ? "border-rocoon-copper bg-rocoon-ink text-white shadow-[0_16px_44px_rgba(42,33,21,0.18)]"
                     : "border-black/10 bg-white/48 text-rocoon-ink hover:bg-white/72"
                 }`}
                 key={item.label}

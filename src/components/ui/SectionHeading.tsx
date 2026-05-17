@@ -20,7 +20,7 @@ export function SectionHeading({
       <p
         className={`section-eyebrow ${tone === "light" ? "text-white/60" : "text-rocoon-muted"}`}
       >
-        <span className="size-2 rounded-full bg-rocoon-copper shadow-[0_0_24px_rgba(189,124,72,0.7)]" />
+        <span className="size-2 rounded-full bg-rocoon-gold shadow-[0_0_24px_rgba(214,168,95,0.7)]" />
         {eyebrow}
       </p>
       <h2

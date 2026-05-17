@@ -21,7 +21,7 @@ export function HomesSection() {
         <div className="mt-12 grid gap-6 lg:grid-cols-3">
           {homeCards.map((home) => (
             <article
-              className="group overflow-hidden rounded-[1.75rem] bg-white shadow-[0_24px_70px_rgba(24,19,15,0.10)]"
+              className="group overflow-hidden rounded-[1.75rem] bg-white shadow-[0_24px_70px_rgba(42,33,21,0.10)]"
               key={home.title}
             >
               <div className="relative aspect-[4/5] overflow-hidden">

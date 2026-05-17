@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className="bg-rocoon-cream px-5 py-6 text-rocoon-cream md:px-8">
       <div className="mx-auto max-w-7xl">
-        <div className="overflow-hidden rounded-[2rem] bg-rocoon-ink shadow-[0_28px_90px_rgba(21,17,13,0.22)]">
+        <div className="overflow-hidden rounded-[2rem] bg-rocoon-ink shadow-[0_28px_90px_rgba(42,33,21,0.22)]">
           <div className="grid gap-10 border-white/10 border-b p-6 md:grid-cols-[1.05fr_0.95fr] md:p-10">
             <div>
               <a aria-label={`${brand.name} home`} href="#hero">
